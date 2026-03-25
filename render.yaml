@@ -3,6 +3,7 @@ services:
   - type: web
     name: alist
     env: docker
+    branch: v3
     repo: https://github.com/YQJCarine/alist-render.git # optional #alist-org
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
